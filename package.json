@@ -1,0 +1,36 @@
+{
+	"name": "@alaminyusuf/prisma-nest-cli",
+	"version": "1.0.0",
+	"description": "A quick CLI to bootstrap prisma and nestjs project",
+	"main": "index.js",
+	"dependencies": {
+		"arg": "^5.0.0",
+		"esm": "^3.2.25",
+		"inquirer": "^8.1.2"
+	},
+	"bin": {
+		"@alaminyusuf/prisma-nest-cli": "bin/prisma-nest-cli",
+		"prisma-nest-cli": "bin/prisma-nest-cli"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Crew-Agency/prisma-nest-cli.git"
+	},
+	"keywords": [
+		"cli",
+		"nestjs",
+		"prisma"
+	],
+	"author": "Al-amin Yusuf",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Crew-Agency/prisma-nest-cli/issues"
+	},
+	"homepage": "https://github.com/Crew-Agency/prisma-nest-cli#readme"
+}
